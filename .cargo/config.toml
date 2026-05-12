@@ -1,0 +1,3 @@
+[alias]
+dev = ["watch", "-x", "run"]
+dev-check = ["watch", "-x", "check"]

@@ -1,0 +1,63 @@
+# Rust build output
+/target/
+
+# Runtime/local app data
+.tartanos/
+*.local
+*.sqlite
+*.sqlite3
+*.db
+*.db-shm
+*.db-wal
+
+# Logs and diagnostics
+*.log
+logs/
+crash-reports/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+*.secret
+*.secrets
+secrets/
+secret/
+credentials/
+credential/
+
+# Tokens, keys, certificates, and private credentials
+*token*
+*credentials*
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.cer
+*.csr
+id_rsa*
+id_ed25519*
+
+# Cloud/provider credentials
+.aws/
+.gcp/
+.azure/
+.netrc
+.npmrc
+.pypirc
+
+# Cargo credentials (keep config.toml allowed)
+.cargo/credentials
+.cargo/credentials.toml
+
+# Editor/agent local state
+.claude/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
